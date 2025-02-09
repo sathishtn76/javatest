@@ -19,7 +19,7 @@ public class gitverify {
 	    	System.out.println(newuser[i]);
 	    	getuserdetails[i]=sc.nextLine();
 	    }
-	    System.out.println(getuserdetails[0]);
+	  
 	}
 
 	public static void main(String[] args) {
