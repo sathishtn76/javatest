@@ -26,6 +26,13 @@ public class Emplyee {
 		this.email=email;
 		this.password=password;
 	}
+	Emplyee(){
+		
+	}
+	
+	public void registers() {
+		System.out.println("hi");
+	}
 
 	public void register() {
        if(usernames(firstname)) {
