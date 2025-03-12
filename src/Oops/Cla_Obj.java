@@ -1,5 +1,7 @@
 package Oops;
 
+import java.time.LocalDate;
+
 public class Cla_Obj {
 	 String brand;
 	    int speed;
@@ -16,7 +18,9 @@ public class Cla_Obj {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Cla_Obj myCar = new Cla_Obj(); // Constructor is called automatically
-	        myCar.displayInfo();
+//	        myCar.displayInfo();
+	        LocalDate today = LocalDate.now(); // Using Java API
+	        System.out.println(today);
 	}
 
 }
