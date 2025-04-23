@@ -12,7 +12,10 @@ public class Human extends SeeFish {
 		Human person1=new Human();
 		person1.study();
 		person1.earningmoney();
-		person1.oar();
+		person1.oar();	
+		BankIob cus=new BankIob("sathish",7689,500);
+		cus.withdraw(500);
+		
 
 	}
 	public void study() {

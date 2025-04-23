@@ -4,7 +4,7 @@ public class BankParent {
 
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	BankIob cus1=new BankIob();
+	BankIob cus1=new BankIob("sathish",8767,600);
 	cus1.setaccountname("sathish");
 	cus1.setaccountnumber(4007);
 	cus1.setbalance(2500);
